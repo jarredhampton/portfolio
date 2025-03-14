@@ -34,12 +34,12 @@ export const About = () => {
               developer with 2.5+ years of experience in the industry. Currently
               expanding more into software development through a rigorous
               bootcamp, gaining expertise in full-stack development with an
-              emphasis on backend. Passionate about briding cybersecurity with
-              software Engineeringto develop scalable and secure applications.
+              emphasis on backend. Passionate about bridging cybersecurity with
+              software engineering to develop scalable and secure applications.
             </p>
             <p className="text-gray-300 mb-6">
               In my free time, I love to game with friends and work on personal
-              projects that grow my skills. I'm eager to learn and grow as a
+              projects that hone my skills. I'm eager to learn and grow as a
               developer.
             </p>
 
@@ -81,7 +81,7 @@ export const About = () => {
               </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Software Engineering </strong> - Western
+                  <strong> B.S. in Computer Science </strong> - Western
                   Governors University (2028)
                 </li>
                 <li>
