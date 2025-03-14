@@ -1,12 +1,73 @@
-# React + Vite
+# Jarred Hampton's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website, showcasing my projects, skills, and experience as a software engineer.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio highlights my journey and work in software engineering. It includes:
+
+- An overview of my professional background.
+- A showcase of selected projects with descriptions and links.
+- A summary of my technical skills and proficiencies.
+- Contact information and links to my social media profiles.
+
+## Features
+
+- **Responsive Design**: Optimized for various devices and screen sizes.
+- **Interactive UI**: Engaging user interface with smooth navigation.
+- **Project Showcase**: Detailed information about my projects, including technologies used and live demos.
+- **Contact Form**: Allows visitors to get in touch directly through the website.
+
+## Technologies Used
+
+- **Frontend**: HTML5, CSS3, JavaScript, React
+- **Backend**: Node.js, Express
+- **Styling**: Tailwind CSS
+- **Version Control**: Git, GitHub
+- **Deployment**: Vercel
+
+## Installation
+
+To run this project locally:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Jarred13D/portfolio.git
+   Navigate to the project directory:
+   ```
+
+2. **Navigate to the project directory**
+
+   cd portfolio
+
+3. **Install Dependencies**
+
+   npm install
+
+   Open http://localhost:3000 in your browser to view the website.
+
+## Usage
+
+    npm start
+
+## Contact
+
+Feel free to reach out:
+
+- jarred.c.hampton@gmail.com
+- linkedin.com/in/jarredhampton/
+
+## Contributions
+
+PedroTech for a great guide.
