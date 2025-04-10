@@ -10,7 +10,7 @@ Welcome to my personal portfolio website, showcasing my projects, skills, and ex
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
-- [License](#license)
+- [Contributions](#contributions)
 
 ## About
 
