@@ -5,7 +5,6 @@ export const About = () => {
     "React",
     "JavaScript",
     "TypeScript",
-    "HTML",
     "CSS",
     "TailwindCSS",
   ];
@@ -82,7 +81,7 @@ export const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> B.S. in Computer Science </strong> - Western
-                  Governors University (2028)
+                  Governors University (2027)
                 </li>
                 <li>
                   <strong> Software Development Bootcamp </strong> - University
