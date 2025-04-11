@@ -51,7 +51,13 @@ export const Projects = () => {
                 {" "}
                 OpenAI Powered Resume Enhancer
               </h3>
-              <p className="text-gray-400 mb-4">{""}</p>
+              <p className="text-gray-400 mb-4">
+                ResumePilot is an intelligent resume enhancement tool that
+                leverages AI technology to help users create compelling,
+                professional resumes. By combining React's powerful UI
+                capabilities with an LLM model from OpenAI, ResumePilot helps
+                job seekers optimize their resumes for better results.
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
                   "React",
