@@ -17,7 +17,6 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">
-                {" "}
                 OpenAI Powered Resume Enhancer
               </h3>
               <p className="text-gray-400 mb-4">
@@ -56,6 +55,49 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
+            <div
+              className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Hampton Lawn Solutions</h3>
+              <p className="text-gray-400 mb-4">
+                Hampton Lawn Solutions is a modern, mobile-friendly website I
+                built for my brother’s lawn care business to help establish his
+                brand and attract local clients. The site features a clean
+                design, responsive layout and clear service breakdowns — all
+                optimized for speed and accessibility. It was built with Astro
+                and React, and deployed for fast, lightweight performance.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "Astro",
+                  "MDX",
+                  "CSS",
+                  "TypeScript",
+                  "Netlify",
+                  "CloudFlare",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
             <div
               className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
             "
@@ -79,33 +121,6 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/Jarred13D/Weather-Dashboard"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
-            <div
-              className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
-            "
-            >
-              <h3 className="text-xl font-bold mb-2"> Coming Soon...</h3>
-              <p className="text-gray-400 mb-4">{""}</p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "Node.js", "TypeScript"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
