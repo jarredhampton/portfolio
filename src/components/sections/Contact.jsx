@@ -8,11 +8,11 @@ export const Contact = () => {
     email: "",
     message: "",
   });
+  const [status, setStatus] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log("VITE_PUBLIC_KEY:", import.meta.env.VITE_PUBLIC_KEY);
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -21,12 +21,13 @@ export const Contact = () => {
         import.meta.env.VITE_PUBLIC_KEY
       )
       .then((result) => {
-        alert("Message Sent!");
+        setStatus("success");
         setFormData({ name: "", email: "", message: "" });
+        setTimeout(() => setStatus(""), 3000);
       })
       .catch((error) => {
-        console.error("EmailJS error:", error);
-        alert("Uh oh! Something went wrong. Please try again.");
+        setStatus("error");
+        setTimeout(() => setStatus(""), 3000);
       });
   };
 
@@ -40,6 +41,18 @@ export const Contact = () => {
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
+          <div className="relative h-10 mb-2">
+            {status === "success" && (
+              <div className="absolute inset-0 flex items-center justify-center animate-fade-in-down bg-green-600 text-white rounded shadow">
+                Thank you! Your message has been sent.
+              </div>
+            )}
+            {status === "error" && (
+              <div className="absolute inset-0 flex items-center justify-center animate-fade-in-down bg-red-600 text-white rounded shadow">
+                Uh oh! Something went wrong. Please try again.
+              </div>
+            )}
+          </div>
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div className="relative">
               <input
