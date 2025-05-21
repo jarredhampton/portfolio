@@ -12,6 +12,7 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    console.log("VITE_PUBLIC_KEY:", import.meta.env.VITE_PUBLIC_KEY);
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -19,11 +20,14 @@ export const Contact = () => {
         e.target,
         import.meta.env.VITE_PUBLIC_KEY
       )
-      .then((_result) => {
+      .then((result) => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
       })
-      .catch(() => alert("Uh oh! Something went wrong. Please try again."));
+      .catch((error) => {
+        console.error("EmailJS error:", error);
+        alert("Uh oh! Something went wrong. Please try again.");
+      });
   };
 
   return (
