@@ -89,7 +89,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href=""
-                  target="_blank"
+                  target="https://github.com/Jarred13D/HLS"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
