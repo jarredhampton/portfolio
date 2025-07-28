@@ -46,7 +46,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Jarred13D/ResumePilot"
+                  href="https://resumepilot.io"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
