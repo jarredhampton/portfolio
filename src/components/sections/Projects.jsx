@@ -89,7 +89,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href=""
-                  target="https://github.com/Jarred13D/HLS"
+                  target="https://hamptonlawnsolutions.com"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
@@ -120,7 +120,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Jarred13D/Weather-Dashboard"
+                  href="https://github.com/jarredhampton/Weather-Dashboard"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
