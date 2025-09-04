@@ -36,31 +36,6 @@ This portfolio highlights my journey and work in software engineering. It includ
 - **Version Control**: Git, GitHub
 - **Deployment**: Vercel
 
-## Installation
-
-To run this project locally:
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/Jarred13D/portfolio.git
-   Navigate to the project directory:
-   ```
-
-2. **Navigate to the project directory**
-
-   cd portfolio
-
-3. **Install Dependencies**
-
-   npm install
-
-   Open http://localhost:3000 in your browser to view the website.
-
-## Usage
-
-    npm start
-
 ## Contact
 
 Feel free to reach out:
