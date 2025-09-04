@@ -67,7 +67,3 @@ Feel free to reach out:
 
 - jarred.c.hampton@gmail.com
 - linkedin.com/in/jarredhampton/
-
-## Contributions
-
-PedroTech for a great guide.
